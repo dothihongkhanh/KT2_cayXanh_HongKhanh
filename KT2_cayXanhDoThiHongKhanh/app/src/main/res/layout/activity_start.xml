@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    android:background="@drawable/cay"
+    >
+
+    <TextView
+        android:id="@+id/textviewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="App quản lý cây xanh!"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:shadowColor="@color/purple_700"
+        android:shadowRadius="15"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSIwelcome"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/custom_button"
+        android:text="sign in"
+        android:textSize="22sp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSUwelcome"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/buttonSIwelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/custom_button"
+        android:text="sign up"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"/>
+
+
+</RelativeLayout>
